@@ -1,0 +1,47 @@
+.card-image{
+    height: 250px;
+}
+.image{
+    height: 200px;
+}
+.card-hover{
+    transition: transform .2s;
+}
+.card-hover:hover{
+    transform: scale(1.05);
+}
+.booking-image{
+    width: 600px;
+}
+.card-review{
+    height: 280px;
+    display: flex;
+    justify-content: center;
+}
+html, body{
+  
+    background-color: #030303;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .text-one {
+    color:  rgb(203, 240, 253);
+  }
+  .background-image {
+    background-image: url('./Car/lambo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+  }
+  
+  .content-container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    color: white;
+  }
